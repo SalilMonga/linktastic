@@ -4,6 +4,14 @@ A Chrome extension that copies the current tab's title and URL as a rich HTML hy
 
 Paste into Google Docs, Notion, Slack, email — anywhere that supports rich text — and get a clickable link instead of a plain URL.
 
+## Why Linktastic?
+
+On Windows, copying a link from Edge and pasting it into Teams or other Microsoft products gives you a nicely formatted, readable link. On a Mac with Chrome? You just get a raw URL.
+
+I looked for extensions that could fix this, but none of them were open-source. I couldn't tell how they handled webpage data — and since I work with a lot of NDA-protected material, I wasn't comfortable giving an unknown extension access to every link on my work machine.
+
+So I built Linktastic. It runs entirely on-device, never phones home, and the code is fully open-source so you can inspect exactly what it does. No data collection, no mystery — just rich links.
+
 ## Install (from source)
 
 1. Clone this repo

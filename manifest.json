@@ -1,11 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Linktastic",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Copy the current tab as a rich HTML link — paste a clickable title anywhere.",
     "permissions": [
         "activeTab",
-        "scripting",
         "clipboardWrite"
     ],
     "host_permissions": [
